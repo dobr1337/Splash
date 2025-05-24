@@ -1,0 +1,47 @@
+
+
+
+
+body {
+    background: #2c2c2c;
+}
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2,5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #000000;
+}
+aside img {
+  width: 80px;
+  float: left;
+}
+aside .logo {
+
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+    aside h3 {
+    padding: 20px;
+        margin-top
+    margin-top: 50px;
+    font-size: 28px;
+}
+aside ul {
+    list-style: none
+}
+aside li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+}
+aside li:hover, aside a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+
+}
