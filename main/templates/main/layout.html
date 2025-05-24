@@ -19,6 +19,9 @@
 
        <span class="logo"></span>
         <h3>навигация</h3>
+        {% if user.is_authenticated %}
+        <h2>{{ request.user.username }}<h2>
+        {% endif %}
     <a href=""><li><i class="fa-solid fa-house"></i> Главная</li></a>
   <a href=""><li>про нас</li></a>
   <a href=""><li>контакты</li></a>

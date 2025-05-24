@@ -5,10 +5,11 @@ from django.urls import path
 from django.contrib import admin
 from django.urls import path, include
 from userauth.views import user_auth
+from main import views as main_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('main.urls')),
-    path('auth', user_auth)
+    path('', main_views.index),
+    path('about', main_views.about),
+    path('auth', user_auth),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-

@@ -28,3 +28,4 @@ def user_auth(request):
     else:
         form = AuthForm()
         return render(request, "userauth/auth.html", {"form": form})
+
